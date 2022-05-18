@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8' ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	</head>
+	<body>
+		<h1 id="play-star-music-mjv-projeto-final">PLAY STAR MUSIC - MJV Projeto Final</h1>
+		<h4 id="autor">Autor</h4>
+		<ul>
+			<li>
+				<a href="https://github.com/Jeice-Lobato">Jeice Lobato</a>
+				Repositório contendo o código fonte do projeto Play-Star-Music
+				##### Tecnologias
+			</li>
+			<li>Java</li>
+			<li>JPA Hibernate</li>
+			<li>Postgre SQL</li>
+			<li>Spring Boot</li>
+			<li>Swagger
+				##### Apresentação</li>
+			<li>Cadastro de gênero musical</li>
+			<li>Cadastro de artista</li>
+			<li>Cadastro de músicas</li>
+			<li>Cadastro de usuários</li>
+			<li>Cadastro de playlist e seleção de músicas.
+				##### JSON Cadastros</li>
+			<li>Cadastrando gênero musical:
+
+				<code>`</code>
+				{
+				"name": "MÚSICA CLÁSSICA"
+				}
+
+				<code>`</code>
+			</li>
+			<li>Cadastrando artistas:
+
+				<code>`</code>
+				{
+				"nomeArtista": "",
+				"descricaoArtista": "string"
+				}
+
+				<code>`</code>
+			</li>
+			<li>Cadastrando músicas:
+
+				<code>`</code>
+				[
+				{
+				    "nomeMusica": "string",
+				    "artista": 0,
+				    "generoMusical": 0,
+				    "albumMusica": "string",
+				    "tempoMusica": "string"
+				}
+				]
+
+				<code>`</code>
+			</li>
+			<li>Cadastrando  usuário:
+
+				<code>`</code>
+				[
+				{
+				    "nomeUsuario": "Jeice Lobato",
+				    "cpf": "78546985213",
+				    "email": "jeicelobato@gmail.com",
+				    "senhaLogin": "mjv@School"
+				}
+				]
+
+				<code>`</code>
+			</li>
+			<li>Gerando playlist e selecionando músicas:
+
+				<code>`</code>
+				[
+				{
+				    "nomePlaylist": "Aleatório",
+				    "usuario": 3,
+				    "musicas": [
+				      {
+				        "musica": 2
+				      },
+				      {
+				        "musica": 37
+				      },
+				      {
+				        "musica": 18
+				      },
+				      {
+				        "musica": 7
+				      }
+				    ]
+				}
+				]
+
+				<code>`</code>
+			</li>
+			<li>Exibindo  as músicas da playlist:
+
+				<code>`</code>
+				http://localhost:8080/playlist_musica
+
+				<code>`</code>
+			</li>
+		</ul>
+	</body>
+</html>
