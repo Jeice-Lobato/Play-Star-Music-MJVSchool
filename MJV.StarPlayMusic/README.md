@@ -1,25 +1,44 @@
-# PLAY STAR MUSIC - MJV Projeto Final
-#### Autor
-- [Jeice Lobato](https://github.com/Jeice-Lobato)
-Repositório contendo o código fonte do projeto Play-Star-Music
-##### Tecnologias
+# 🎵🎧  PLAY STAR MUSIC - MJV Projeto Final  🎵🎧
+
+
+<img src="https://www.vilage.com.br/blog/wp-content/uploads/2021/04/como-registrar-uma-musica.png" width="700px">
+
+#### Autor 👩‍🎓
+- Jeice Lobato
+- Repositório contendo o código fonte do projeto Play-Star-Music : https://github.com/Jeice-Lobato
+
+##### 💻 Tecnologias 💻
 * Java
 * JPA Hibernate
-* Postgre SQL
+* PostgreSQL
 * Spring Boot
 * Swagger
-##### Apresentação
-1. Cadastro de gênero musical
-2. Cadastro de artista
+* TDD
+* Postman
+* MVC
+* Maven
+* Eclipse
+
+##### Proposta da implementação ✍️
+* Permitir o cadastro de músicas, artistas e gêneros musicais. Sendo possível ao usuário, se cadastrar e nomear sua playlist, selecionando as músicas de sua preferência.
+* Foi desenvolvida uma API documentada no Swagger em uma depência, através das tecnologias citadas anteriormente.
+
+Diagrama de classes - UML
+
+<img src="https://github.com/Jeice-Lobato/Play-Star-Music-MJVSchool/blob/main/UML%20-%20PLAY%20STAR%20MUSIC.png?raw=true" width="900px">
+
+##### Apresentação 👩‍🏫
+1. Cadastro de gêneros musicais
+2. Cadastro de artistas
 3. Cadastro de músicas
 4. Cadastro de usuários
-5. Cadastro de playlist e seleção de músicas.
+5. Cadastro de playlists e seleção de músicas.
 ##### JSON Cadastros
 
 * Cadastrando gênero musical:
 ```
 {
-  "name": "MÚSICA CLÁSSICA"
+  "nomeGeneroMusical": "MÚSICA CLÁSSICA"
 }
 ```
 * Cadastrando artistas:
@@ -42,20 +61,20 @@ Repositório contendo o código fonte do projeto Play-Star-Music
 * Cadastrando  usuário:
 ```
 {
-  "nomeUsuario": "Jeice Lobato",
+  "nomeUsuario": "JON SNOW NÃO SABE DE NADA",
   "cpf": "78546985213",
-  "email": "jeicelobato@gmail.com",
-  "senhaLogin": "mjv@School"
+  "email": "joaodasneves@gmail.com",
+  "senhaLogin": "nao sei de nada"
 }
 ```
 * Gerando playlist e selecionando músicas:
 ```
 {
-  "nomePlaylist": "JEICE`S PLAYLIST",
-  "usuario": 3,
+  "nomePlaylist": "JONS`S PLAYLIST",
+  "usuario": 2,
   "musicas": [
     {
-      "musica": 2
+      "musica": 47
     },
 {
       "musica": 37
@@ -69,10 +88,11 @@ Repositório contendo o código fonte do projeto Play-Star-Music
   ]
 }
 ```
-* Exibindo  as músicas da playlist:
-```
-http://localhost:8080/playlist_musica
-```
+* Para acessar os dados na API, importe o código fonte e acesse o link abaixo:
+
+  http://localhost:8080/swagger-ui/index.html
+
+
 
 
 
